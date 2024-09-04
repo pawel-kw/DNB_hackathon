@@ -12,7 +12,7 @@ Following [Kafka Quickstart guide](https://kafka.apache.org/quickstart)
 
 # Snowflake connector for Kafka
 
-Config file: [SF_connect.properties](kafka_2.13-3.8.0/config/SF_connect.properties)
+Config file: [SF_connect.properties](SF_connect.properties)
 
 ## Starting standalone SF connector
 
@@ -20,4 +20,4 @@ Config file: [SF_connect.properties](kafka_2.13-3.8.0/config/SF_connect.properti
 
 ## Test data
 
-Test transaction data from Kaggle
+Test transaction data from [Kaggle](https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions)
