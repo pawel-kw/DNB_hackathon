@@ -16,10 +16,3 @@ with open("data/User0_credit_card_transactions.csv", "r") as file:
             message = json.dumps(row)
             encoded_message = message.encode("utf-8")
             producer.produce(encoded_message)
-
-
-# with topic.get_sync_producer() as producer:
-#     for i in range(10):
-#         message = "Test message " + str(i)
-#         encoded_message = message.encode("utf-8")
-#         producer.produce(encoded_message)
